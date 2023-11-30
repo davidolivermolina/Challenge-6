@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#search-container {
+    margin-bottom: 20px;
+}
+
+#search-container label {
+    margin-right: 10px;
+}
+
+#weather-display {
+    margin-bottom: 20px;
+}
+
+#history-container {
+    text-align: center;
+}
+
+#history-list {
+    list-style: none;
+    padding: 0;
+}
+
+#history-list li {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}

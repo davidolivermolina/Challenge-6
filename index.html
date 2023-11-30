@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main>
+        <div id="search-container">
+            <label for="city-input">Enter City:</label>
+            <input type="text" id="city-input" placeholder="City">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="weather-display">
+        </div>
+
+        <div id="history-container">
+            <h2>Search History</h2>
+            <ul id="history-list">
+            </ul>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
